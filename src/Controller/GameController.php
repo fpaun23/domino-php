@@ -34,7 +34,7 @@ class GameController extends AbstractController
     }
 
     /**
-     * @Route("/play", name="app_play", methods={"POST"})
+     * @Route("/play", name="app_play", methods={"GET"})
      * @param Request $request
      *
      * @return Response
